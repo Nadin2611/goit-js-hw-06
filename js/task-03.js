@@ -29,6 +29,4 @@ const makeGalleryElement = images
   )
   .join("");
 
-console.log(makeGalleryElement);
-
 ulElement.insertAdjacentHTML("beforeend", makeGalleryElement);
